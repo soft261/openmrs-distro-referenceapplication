@@ -31,12 +31,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<openMRSVersion>2.0.6</openMRSVersion>
-		<referencemetadataVersion>2.7.0</referencemetadataVersion>
+		<referencemetadataVersion>2.7.2-SNAPSHOT</referencemetadataVersion>
 		<logicVersion>0.5.2</logicVersion>
 		<appframeworkVersion>2.12.0-SNAPSHOT</appframeworkVersion>
 		<uiframeworkVersion>3.13.0</uiframeworkVersion>
 		<registrationcoreVersion>1.8.0</registrationcoreVersion>
-		<registrationappVersion>1.10.0</registrationappVersion>
+		<registrationappVersion>1.13.0-SNAPSHOT</registrationappVersion>
 		<eventVersion>2.6.0</eventVersion>
 		<idgenVersion>4.4.1</idgenVersion>
 		<emrapiVersion>1.25.0-SNAPSHOT</emrapiVersion>
@@ -49,12 +49,12 @@
 		<reportingVersion>1.15.0</reportingVersion>
 		<reportingRestVersion>1.9.0</reportingRestVersion>
 		<metadatadeployVersion>1.11.0-SNAPSHOT</metadatadeployVersion>
-		<metadatasharingVersion>1.3.0</metadatasharingVersion>
+		<metadatasharingVersion>1.6.0-SNAPSHOT</metadatasharingVersion>
 		<metadatamappingVersion>1.3.5-SNAPSHOT</metadatamappingVersion>
 		<uicommonsVersion>2.5.1</uicommonsVersion>
 		<appuiVersion>1.8.0</appuiVersion>
 		<htmlformentryVersion>3.4.0</htmlformentryVersion>
-		<htmlformentryuiVersion>1.6.4</htmlformentryuiVersion>
+		<htmlformentryuiVersion>1.8.0-SNAPSHOT</htmlformentryuiVersion>
 		<coreappsVersion>1.20.0-SNAPSHOT</coreappsVersion>
 		<webservices.restVersion>2.23.0-SNAPSHOT</webservices.restVersion>
 		<referencedemodataVersion>1.4.5-SNAPSHOT</referencedemodataVersion>
@@ -64,7 +64,7 @@
 		<atlasVersion>2.2</atlasVersion>
 		<chartsearchVersion>2.1.0</chartsearchVersion>
 		<appointmentschedulingVersion>1.10.0-SNAPSHOT</appointmentschedulingVersion>
-		<appointmentschedulinguiVersion>1.6.1</appointmentschedulinguiVersion>
+		<appointmentschedulinguiVersion>1.8.0-SNAPSHOT</appointmentschedulinguiVersion>
 		<namephoneticsVersion>1.6.0</namephoneticsVersion> <!-- The omod for namephonetics is not included in the distro, but we keep the version around since it's a semi-supported add-on -->
 		<adminuiVersion>1.2.2</adminuiVersion>
 		<uitestframeworkVersion>2.2.0</uitestframeworkVersion>
