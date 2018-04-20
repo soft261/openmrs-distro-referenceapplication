@@ -11,6 +11,7 @@ import org.openmrs.reference.page.HomePage;
 import org.openmrs.reference.groups.BuildTests;
 import org.openmrs.reference.page.AppointmentSchedulingPage;
 import org.openmrs.reference.page.ManageProviderSchedulesPage;
+import org.openmrs.uitestframework.page.LoginPage;
 
 public class LoginAfterSessionExpirationTest extends ReferenceApplicationTestBase {
     private HomePage homePage;
@@ -29,7 +30,9 @@ public class LoginAfterSessionExpirationTest extends ReferenceApplicationTestBas
     	// Try to click on something
         appointmentSchedulingPage.goToManageAppointments();
         // Should be sent back to the login page
-        login();
+	    LoginPage page = this.getLoginPage();
+	    this.assertPage(page);
+	    page.loginAsAdmin();
         // Logging in again should restore to the previous page.
         assertPage(appointmentSchedulingPage);        
     }
